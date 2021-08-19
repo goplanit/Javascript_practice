@@ -1,0 +1,63 @@
+* {
+  font-size: 24px;
+}
+
+.colorBox {
+  margin: 30px auto;
+  width: 30%;
+  background-color: #ebeff3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.innerColorBox {
+  position: relative;
+  box-sizing: border-box;
+  width: 85%;
+  height: 400px;
+  margin: 30px;
+  background-color: #709fb0;
+  border-radius: 10px;
+}
+
+.colorInfoBox {
+  position: absolute;
+  bottom: 15px;
+  font-size: 24px;
+  color: #fff;
+  padding: 10px;
+  background-color: #578291;
+  opacity: 0;
+}
+.innerColorBox:hover .colorInfoBox {
+  opacity: 1;
+}
+
+.PostInfo {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 30px 30px 30px;
+}
+
+.likeWrapper {
+  box-sizing: border-box;
+  padding: 13px;
+  display: flex;
+  flex-direction: row;
+  border: 2px solid #a5a6a8;
+  border-radius: 10px;
+  margin-left: 40px;
+}
+.likeCnt {
+  margin-left: 10px;
+}
+
+.isDate {
+  margin-right: 40px;
+}
